@@ -5,6 +5,7 @@ go:
 
 install:
   - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+  - gem install travis -v 1.8.5 --no-document
 
 script:
   - hugo # This commands builds your website on travis
